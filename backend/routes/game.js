@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router()
 const mongoose = require('mongoose');
 const Game = require('../models/games')
-var randomWords = require('random-words')
 const randomWordFR = require('random-word-fr')
 
 
