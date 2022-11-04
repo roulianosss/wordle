@@ -17,7 +17,7 @@ function handleNewGame(e) {
     divResult.textContent = ''
     rowIndex = 1
     colIndex = 0
-    fetch('http://127.0.0.1:3000/game/new').then(res => res.json()).then(data => {
+    fetch('https://wordle-peach-psi.vercel.app/game/new').then(res => res.json()).then(data => {
         console.log(data)
         gameId.textContent = data.gameId
         wordLength = data.word.length
