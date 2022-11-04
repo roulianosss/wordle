@@ -1,0 +1,13 @@
+{
+	"name": "wordle",
+	"version": "1.0.0",
+	"private": true,
+	"devDependencies": {
+		"jest": "^27.5.1",
+		"jsdom": "^19.0.0"
+	},
+	"dependencies": {
+		"mongoose": "^6.7.1",
+		"random-words": "^1.2.0"
+	}
+}
